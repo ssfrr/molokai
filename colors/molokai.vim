@@ -55,11 +55,11 @@ hi Ignore          guifg=#808080 guibg=bg
 hi IncSearch       guifg=#C4BE89 guibg=#000000
 
 hi Keyword         guifg=#F92672               gui=bold
-hi Label           guifg=#E6DB74               gui=none
+hi Label           guifg=#E6DB74               gui=NONE
 hi Macro           guifg=#C4BE89               gui=italic
 hi SpecialKey      guifg=#66D9EF               gui=italic
 
-hi MatchParen      guifg=#FD971F guibg=none gui=bold
+hi MatchParen      guifg=#FD971F guibg=NONE gui=bold
 hi ModeMsg         guifg=#E6DB74
 hi MoreMsg         guifg=#E6DB74
 hi Operator        guifg=#F92672
@@ -97,7 +97,7 @@ hi Title           guifg=#ef5939
 hi Todo            guifg=#FFFFFF guibg=bg      gui=bold
 
 hi Typedef         guifg=#66D9EF
-hi Type            guifg=#66D9EF               gui=none
+hi Type            guifg=#66D9EF               gui=NONE
 hi Underlined      guifg=#808080               gui=underline
 
 hi VertSplit       guifg=#808080 guibg=#080808 gui=bold
@@ -155,11 +155,11 @@ if &t_Co > 255
    hi IncSearch       ctermfg=193 ctermbg=16
 
    hi Keyword         ctermfg=161               cterm=bold
-   hi Label           ctermfg=229               cterm=none
+   hi Label           ctermfg=229               cterm=NONE
    hi Macro           ctermfg=193
    hi SpecialKey      ctermfg=75
 
-   hi MatchParen      ctermfg=208 ctermbg=none cterm=bold
+   hi MatchParen      ctermfg=208 ctermbg=NONE cterm=bold
    hi ModeMsg         ctermfg=229
    hi MoreMsg         ctermfg=229
    hi Operator        ctermfg=161
@@ -193,7 +193,7 @@ if &t_Co > 255
    hi Todo            ctermfg=000               cterm=bold
 
    hi Typedef         ctermfg=75
-   hi Type            ctermfg=75                cterm=none
+   hi Type            ctermfg=75                cterm=NONE
    hi Underlined      ctermfg=244               cterm=underline
 
    hi VertSplit       ctermfg=244 ctermbg=232   cterm=bold
@@ -204,7 +204,7 @@ if &t_Co > 255
 
    hi Normal          ctermfg=247 ctermbg=233
    hi Comment         ctermfg=59
-   hi CursorLine                  ctermbg=234   cterm=none
+   hi CursorLine                  ctermbg=234   cterm=NONE
    hi CursorColumn                ctermbg=234
    hi LineNr          ctermfg=250 ctermbg=234
    hi NonText         ctermfg=250 ctermbg=234
